@@ -1,4 +1,4 @@
-The `TestsFor2.0.0` branch includes test cases and setup procedures for executing tests using AltTester SDK 2.0.0. These tests are designed specifically for the TrashCat build mentioned in the following lines. If you're looking for tests for AltTester version 1.8.2, please check the [main branch](https://github.com/alttester/EXAMPLES-TrashCat-Tests/tree/main).
+The `TestsFor2.0.0` branch includes test cases and setup procedures for executing tests using `AltTester Unity SDK 2.0.0`. These tests are designed specifically for the TrashCat build mentioned in the following lines. If you're looking for tests for AltTester version 1.8.2, please check the [main branch](https://github.com/alttester/EXAMPLES-TrashCat-Tests/tree/main).
 
 ## Prerequisite
 
