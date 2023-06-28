@@ -1,19 +1,13 @@
 ## Prerequisite
 
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
-2. Have a game [instrumented with AltTester Unity SDK](https://alttester.com/docs/sdk/pages/get-started.html#instrument-your-game-with-alttester-unity-sdk)
-3. Have [AltTester Desktop app](https://alttester.com/alttester/) installed (to be able to inspect game)
-- For SDK v 1.8.2 => need to use AltTester Desktop 1.5.1 (at least)
+2. Have a build [instrumented with AltTester SDK 2.0.0](https://alttester.com/docs/sdk/pages/get-startedhtml#instrument-your-game-with-alttester-unity-sdk).
+3. Have [AltTester Desktop app, 2.0.0](https://alttester.com/alttester/) installed (to be able to inspect game).
 - For SDK v 2.0.0 => need to use AltTester Desktop 2.0.0
 4. Add AltTester package:
 ```
-dotnet add package AltTester-Driver --version 1.8.2
+dotnet add package AltTester-Driver --version 2.0.0
 ```
-
-### Workaround for being able to use SDK 1.8.2 installed as package in project:
-- get `altwebsocket-sharp.dll` from [here](https://github.com/alttester/AltTester-Unity-SDK/tree/development/Assets/AltTester/Runtime/3rdParty/websocket-sharp/netstandard2.0) and put in project's bin\Debug\net7.0
-
-this was necessary due to currently open [issue](https://github.com/alttester/AltTester-Unity-SDK/issues/1192)
 
 ### Specific for running on Android from Windows
 5. Download and install [ADB for Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
@@ -42,15 +36,16 @@ adb install TrashCat.apk
 ```
 
 # Run tests manually (with [dotnet CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-test))
+! **When running v2.0.0 make sure to have the AltTester Desktop App running**
 
-1. [Optional to do manually] Setup ADB port forwarding (this can also be done in code in Setup and Teardown)
+1. [Optional to do manually] Setup ADB reverse port forwarding (this can also be done in code in Setup and Teardown)
 
 ```
 adb forward --remove-all
 ```
 
 ```
-adb forward tcp:13000 tcp:13000
+adb reverse tcp:13000 tcp:13000
 ```
 
 2. Launch game
@@ -70,7 +65,6 @@ dotnet test
 adb shell am force-stop com.Altom.TrashCat
 ```
 
-! **When running v 1.8.2 make sure to have the AltTester Desktop App closed, otherwise the test won't be able to connect to proper port.**
 
 ### Run all tests from a specific class / file
 
