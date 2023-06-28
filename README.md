@@ -2,7 +2,7 @@
 
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
 2. Have a game [instrumented with AltTester Unity SDK](https://alttester.com/docs/sdk/pages/get-started.html#instrument-your-game-with-alttester-unity-sdk)
-3. Have [AltTester Desktop app](https://alttester.com/alttester/) installed (to be able to inspect game)
+3. Have [AltTester Desktop app](https://github.com/alttester/AltTester-Unity-SDK/releases) installed (to be able to inspect game)
 - For SDK v 1.8.2 => need to use AltTester Desktop 1.5.1 (at least)
 - For SDK v 2.0.0 => need to use AltTester Desktop 2.0.0
 4. Add AltTester package:
