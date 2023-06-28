@@ -3,7 +3,7 @@ The main includes test cases and setup procedures for executing tests using AltT
 ## Prerequisite
 
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
-2. Have a game [instrumented with AltTester Unity SDK](https://alttester.com/docs/sdk/pages/get-started.html#instrument-your-game-with-alttester-unity-sdk)
+2. Have a game [instrumented with AltTester Unity SDK](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatStandAlone182FNoTutorial.zip).
 3. Have [AltTester Desktop app](https://github.com/alttester/AltTester-Unity-SDK/releases) installed (to be able to inspect game)
 - For SDK v 1.8.2 => need to use AltTester Desktop 1.5.1 (at least)
 - For SDK v 2.0.0 => need to use AltTester Desktop 2.0.0
@@ -22,6 +22,7 @@ this was necessary due to currently open [issue](https://github.com/alttester/Al
 6. Enable Developers Options on mobile device [more instructions here](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 
 # Setup for running on mobile device
+For Android, here is a specific [build instrumented with AltTester SDK](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatAndroid182FNoTutorial.zip).
 
 1. Make sure mobile device is connected via USB, execute:
 
