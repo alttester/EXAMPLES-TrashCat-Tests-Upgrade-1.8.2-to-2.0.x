@@ -1,3 +1,5 @@
+The main includes test cases and setup procedures for executing tests using AltTester SDK 2.0.0. These tests are designed specifically for the TrashCat build mentioned in the following lines. If you're looking for tests for AltTester version 1.8.2, please check the [main branch](https://github.com/alttester/EXAMPLES-TrashCat-Tests/tree/main).
+
 ## Prerequisite
 
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
