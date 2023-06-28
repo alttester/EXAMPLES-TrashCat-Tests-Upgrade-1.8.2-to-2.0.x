@@ -157,7 +157,7 @@ namespace alttrashcat_tests_csharp.tests
         {
             var serverVersion = altDriver.GetServerVersion();
             Console.WriteLine("App was instrumented with server version: " + serverVersion);
-            Assert.That(serverVersion, Is.EqualTo("1.8.2"));
+            Assert.That(serverVersion, Is.EqualTo("2.0.0"));
         }
 
         [Test]
