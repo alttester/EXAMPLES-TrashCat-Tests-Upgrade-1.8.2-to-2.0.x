@@ -44,7 +44,7 @@ adb install TrashCat.apk
 1. [Optional to do manually] Setup ADB reverse port forwarding (this can also be done in code in Setup and Teardown)
 
 ```
-adb forward --remove-all
+adb reverse remove tcp:13000
 ```
 
 ```
