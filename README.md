@@ -1,14 +1,14 @@
-The `TestsFor2.0.0` branch includes test cases and setup procedures for executing tests using `AltTester Unity SDK 2.0.0`. These tests are designed specifically for the TrashCat build mentioned in the following lines. If you're looking for tests for AltTester version 1.8.2, please check the [main branch](https://github.com/alttester/EXAMPLES-TrashCat-Tests/tree/main).
+The `TestsFor2.0.1` branch includes test cases and setup procedures for executing tests using `AltTester Unity SDK 2.0.1`. These tests are designed specifically for the TrashCat build mentioned in the following lines. If you're looking for tests for AltTester version 1.8.2, please check the [main branch](https://github.com/alttester/EXAMPLES-TrashCat-Tests/tree/main).
 
 ## Prerequisite
 
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
 2. Have a build [instrumented with AltTester SDK 2.0.0](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatStandAlone2FNoTutorial.zip).
-3. Have [AltTester Desktop app, 2.0.0](https://alttester.com/alttester/) installed (to be able to inspect game).
-- For SDK v 2.0.0 => need to use AltTester Desktop 2.0.0
+3. Have [AltTester Desktop app, 2.0.1](https://alttester.com/alttester/#pricing) installed (to be able to inspect game).
+- For SDK v2.0.1 => need to use AltTester Desktop 2.0.1
 4. Add AltTester package:
 ```
-dotnet add package AltTester-Driver --version 2.0.0
+dotnet add package AltTester-Driver --version 2.0.1
 ```
 
 ### Specific for running on Android from Windows
