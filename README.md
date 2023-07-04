@@ -3,7 +3,7 @@ The `TestsFor2.0.1` branch includes test cases and setup procedures for executin
 ## Prerequisite
 
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
-2. Have a build [instrumented with AltTester SDK 2.0.0](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatStandAlone2FNoTutorial.zip).
+2. Have a build [instrumented with AltTester SDK 2.0.1](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatStandalone2.0.1.zip).
 3. Have [AltTester Desktop app, 2.0.1](https://alttester.com/alttester/#pricing) installed (to be able to inspect game).
 - For SDK v2.0.1 => need to use AltTester Desktop 2.0.1
 4. Add AltTester package:
@@ -16,7 +16,7 @@ dotnet add package AltTester-Driver --version 2.0.1
 6. Enable Developers Options on mobile device [more instructions here](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 
 # Setup for running on mobile device
-For Android, here is a [build instrumented with AltTester SDK 2.0.0](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatAndroid2NoTutorial.zip).
+For Android, here is a [build instrumented with AltTester SDK 2.0.1](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatAndroid2.0.1.zip).
 
 1. Make sure mobile device is connected via USB, execute:
 
