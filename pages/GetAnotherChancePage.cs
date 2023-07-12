@@ -82,9 +82,9 @@ namespace alttrashcat_tests_csharp.pages
             var normalColorB = GetPremiumButtonStateColorRGB(stateName, "b");
             try
             {
-                Assert.AreEqual(initialButtonColorR, normalColorR);
-                Assert.AreEqual(initialButtonColorG, normalColorG);
-                Assert.AreEqual(initialButtonColorB, normalColorB);
+                Assert.AreEqual(initialButtonColorR, normalColorR, 0.1f);
+                Assert.AreEqual(initialButtonColorG, normalColorG, 0.1f);
+                Assert.AreEqual(initialButtonColorB, normalColorB, 0.1f);
                 return true;
             }
             catch

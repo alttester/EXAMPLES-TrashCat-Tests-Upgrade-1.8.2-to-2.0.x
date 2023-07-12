@@ -89,7 +89,7 @@ namespace alttrashcat_tests_csharp.tests
         }
 
         [Test]
-        public void TestGetTimeScaleinGame()
+        public void TestGetTimeScaleInGame()
         {
             var timeScaleFromGame = altDriver.GetTimeScale();
             altDriver.SetTimeScale(0.1f);
