@@ -3,7 +3,7 @@ The `TestsFor2.0.1` branch includes test cases and setup procedures for executin
 ## Prerequisite
 
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
-2. Have a build [instrumented with AltTester SDK 2.0.1](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatAndroid2.0.1.zip).
+2. Have a build instrumented with AltTester SDK 2.0.1- [Standalone](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatStandalone2.0.1.zip) or [Android](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatAndroid2.0.1.zip).
 3. Have [AltTester Desktop app, 2.0.1](https://alttester.com/alttester/#pricing) installed (to be able to inspect game).
 - For SDK v2.0.1 => need to use AltTester Desktop 2.0.1
 4. Add AltTester package:
