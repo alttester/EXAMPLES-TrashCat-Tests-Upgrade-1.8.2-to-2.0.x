@@ -1,14 +1,13 @@
-The `TestsFor2.0.1` branch includes test cases and setup procedures for executing tests using `AltTester Unity SDK 2.0.1`. These tests are designed specifically for the TrashCat build mentioned in the following lines. If you're looking for tests for AltTester version 1.8.2, please check the [main branch](https://github.com/alttester/EXAMPLES-TrashCat-Tests/tree/main).
+The `TestsFor2.2.5` branch includes test cases and setup procedures for executing tests using `AltTester Unity SDK 2.2.5`. These tests are designed specifically for the TrashCat build mentioned in the following lines.
 
 ## Prerequisite
 
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
-2. Have a [standalone build instrumented with AltTester SDK 2.0.1](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatStandalone2.0.1.zip) 
-3. Have [AltTester Desktop app, 2.0.1](https://alttester.com/alttester/#pricing) installed (to be able to inspect game).
-- For SDK v2.0.1 => need to use AltTester Desktop 2.0.1
+2. Have a Standalone build instrumented with AltTester SDK 2.2.5 - for additional information you can follow [this tutorial](https://alttester.com/walkthrough-tutorial-upgrading-trashcat-to-2-0-x/#Instrument%20TrashCat%20with%20AltTester%20Unity%20SDK%20v.2.0.x)
+3. Have [AltTester Desktop app, 2.2.4](https://alttester.com/downloads/) installed (to be able to inspect game).
 4. Add AltTester package:
 ```
-dotnet add package AltTester-Driver --version 2.0.1
+dotnet add package AltTester-Driver --version 2.2.5
 ```
 
 ### Specific for running on Android from Windows
@@ -16,7 +15,7 @@ dotnet add package AltTester-Driver --version 2.0.1
 6. Enable Developers Options on mobile device [more instructions here](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 
 # Setup for running on mobile device
-Here is an [Android build instrumented with AltTester SDK 2.0.1](https://alttester.com/app/uploads/AltTester/TrashCat/TrashCatAndroid2.0.1.zip).
+Instrument the Android `TrashCat` application using the latest version of AltTester® Unity SDK - for additional information you can follow [this tutorial](https://alttester.com/walkthrough-tutorial-upgrading-trashcat-to-2-0-x/#Instrument%20TrashCat%20with%20AltTester%20Unity%20SDK%20v.2.0.x)
 
 1. Make sure mobile device is connected via USB, execute:
 
@@ -39,7 +38,7 @@ adb install TrashCat.apk
 ```
 
 # Run tests manually (with [dotnet CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-test))
-! **When running v2.0.0 make sure to have the AltTester Desktop App running**
+! **Make sure to have the AltTester Desktop App running**
 
 1. [Optional to do manually] Setup ADB reverse port forwarding (this can also be done in code in Setup and Teardown)
 
