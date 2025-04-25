@@ -5,6 +5,7 @@ The `TestsFor2.2.5` branch includes test cases and setup procedures for executin
 1. Download and install [.NET SDK](https://dotnet.microsoft.com/en-us/download)
 2. Have a Standalone build instrumented with AltTester® Unity SDK 2.2.5 - for additional information you can follow [this tutorial](https://alttester.com/walkthrough-tutorial-upgrading-trashcat-to-2-0-x/#Instrument%20TrashCat%20with%20AltTester%20Unity%20SDK%20v.2.0.x)
 3. Have [AltTester® Desktop app, 2.2.4](https://alttester.com/downloads/) installed (to be able to inspect game).
+- For SDK v2.2.5 => need to use AltTester Desktop 2.2.4
 4. Add AltTester® package:
 ```
 dotnet add package AltTester-Driver --version 2.2.5
